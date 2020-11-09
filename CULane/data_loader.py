@@ -44,14 +44,14 @@ class Generator(object):
         # load training set
         self.train_data = []
 
-        with open("/home/kym/research/autonomous_car_vision/dataset/CULane_dataset/list/train.txt") as f:
+        with open("C:\\Users\\sprkzoff\\Desktop\\PINet_new\\CULane\\dataset\\list\\train.txt") as f:
             self.train_data = f.readlines()
 
         self.size_train = len(self.train_data)
 
         # load test set
         self.test_data = []
-        with open("/home/kym/research/autonomous_car_vision/dataset/CULane_dataset/list/test.txt") as f:
+        with open("C:\\Users\\sprkzoff\\Desktop\\PINet_new\\CULane\\dataset\\list\\test.txt") as f:
             self.test_data = f.readlines()
 
         self.size_test = len(self.test_data)

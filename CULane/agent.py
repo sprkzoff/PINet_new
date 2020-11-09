@@ -374,8 +374,7 @@ class Agent(nn.Module):
     #####################################################
     def load_weights(self, epoch, loss):
         self.lane_detection_network.load_state_dict(
-            torch.load(self.p.model_path+str(epoch)+'_'+str(loss)+'_'+'lane_detection_network.pkl', map_location='cuda:0'),False
-        )
+            torch.load('C:\\Users\\sprkzoff\\Desktop\\PINet_new\\CULane\\savefile\\296_tensor(1.6947)_lane_detection_network.pkl', map_location='cuda:0'),False)
 
     #####################################################
     ## Save model

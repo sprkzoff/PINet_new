@@ -19,7 +19,7 @@ class Parameters():
     grid_y = y_size//resize_ratio  #32
     feature_size = 4
     regression_size = 110
-    mode = 3
+    mode = 1
     threshold_point = 0.96 #0.88 #0.93 #0.95 #0.93
     threshold_instance = 0.08
 

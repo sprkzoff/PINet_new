@@ -66,7 +66,7 @@ def Testing():
             cv2.waitKey(0) 
 
     elif p.mode == 1: # check model with video
-        cap = cv2.VideoCapture("/home/kym/research/autonomous_car_vision/lane_detection/code/Tusimple/git_version/LocalDataset_Day.mp4")
+        cap = cv2.VideoCapture("C:\\Users\\sprkzoff\\Desktop\\PINet_new\\CULane\\dataset\\test_set\\Driving.mp4")
         while(cap.isOpened()):
             ret, frame = cap.read()
             torch.cuda.synchronize()
